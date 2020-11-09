@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT onlinejewellery (customer+)>
+<!ELEMENT customer (name,age,purchases,phone,location)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST customer cid ID #REQUIRED>

@@ -1,0 +1,34 @@
+{
+    "onlinejewellery": {
+      "product": [
+        {
+            "@sno": "B1",
+            "category": "necklace", 
+            "email": "gold", 
+            "quantity": "01", 
+            "price": "50000"
+        },
+        {
+            "@sno": "B2",
+            "category": "ring", 
+            "email": "silver", 
+            "quantity": "03", 
+            "price": "12000"
+        },
+        {
+            "@sno": "B3",
+            "category": "earrings", 
+            "email": "artificial", 
+            "quantity": "01", 
+            "price": "950"
+        },
+        {
+            "@sno": "B4",
+            "category": "bangles", 
+            "email": "artificial", 
+            "quantity": "06", 
+            "price": "5700"
+        }
+      ]
+    }
+  }

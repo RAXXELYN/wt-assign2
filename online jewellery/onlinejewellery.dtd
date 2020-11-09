@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT onlinejewellery (product+)>
+<!ELEMENT product (category,type,quantity,price)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST customer sno ID #REQUIRED>

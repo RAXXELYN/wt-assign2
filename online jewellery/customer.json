@@ -1,0 +1,38 @@
+{
+    "bloodbank": {
+      "customer": [
+        {
+          "@cid": "2001",
+          "name": "Raxxelyn",
+          "age": "24",
+          "category": "gold necklace",
+          "phone": "9845612475",
+          "location": "Chennai"
+        },
+        {
+          "@did": "2002",
+          "name": "Jenneyl",
+          "age": "34",
+          "category": "silver ring",
+          "phone": " 9456123748 ",
+          "location": " Madurai "
+        },
+        {
+          "@did": "2003",
+          "name": "Berylton",
+          "age": "56",
+          "category": "artificial earrings",
+          "phone": " 9847512364 ",
+          "location": " Ooty "
+        },
+        {
+          "@did": "2004",
+          "name": "Longton",
+          "age": "27",
+          "category": "artificial bangles",
+          "phone": " 98236547156 ",
+          "location": " Bangalore "
+        }
+      ]
+    }
+  }

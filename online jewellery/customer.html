@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-image: url('jewel.jpg');
+}
+body {
+  color: black;
+  background-color : black;
+}
+
+h1 {
+  color:green;
+}
+
+h5 {
+  color : red;
+}
+</style>
+</head>
+<body>
+<div>
+<h1> DOM example for customer file </h1>
+<h5>Name:</h5> <p id="demo"></p>
+<h5>Categories:</h5> <p id ="demo1">Categories:</p>
+<h5>Node name of first child of "customer"</h5> <p id="demo2"></p>
+<h5>Categories available: </h5> <p id = "demo3"></p>
+</div>
+
+<script>
+var text, parser, xmlDoc;
+var text1 = "";
+
+text = "<onlinejewellery><customer>" +
+"<customer>"+   
+  "<name>Raxxelyn</name>"+
+  "<age>24</age>"+
+  "<category>gold necklace</category>"+
+  "<phone> 9845612475 </phone>"+
+  "<location> Chennai </location>"+
+"</customer>"+
+"<customer>"+   
+  "<name>Jenneyl</name>"+
+  "<age>34</age>"+
+  "<category>silver ring</category>"+
+  "<phone> 9456123748 </phone>"+
+  "<location> Madurai </location>"+
+"</customer>"+
+"<customer>"+   
+  "<name>Berylton</name>"+
+  "<age>56</age>"+
+  "<category>artificial earrings</category>"+
+  "<phone> 9847512364 </phone>"+
+  "<location> Ooty </location>"+
+"</customer>"+
+"<customer>"+   
+  "<name>Longton</name>"+
+  "<age>27</age>"+
+  "<category>artificial bangles</category>"+
+  "<phone> 98236547156 </phone>"+
+  "<location> Bangalore </location>"+
+"</customer>"+
+"</customer></onlinejewellery>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("demo1").innerHTML =
+xmlDoc.getElementsByTagName("category")[0].childNodes[0].nodeValue;
+document.getElementById("demo2").innerHTML =
+xmlDoc.getElementsByTagName("phone")[0].childNodes[0].nodeValue;
+text1 = text1 + xmlDoc.getElementsByTagName("category")[0].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("category")[1].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("category")[2].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("category")[3].childNodes[0].nodeValue + "<br>" ;
+
+document.getElementById("demo3").innerHTML = text1;
+
+</script>
+
+</body>
+</html>

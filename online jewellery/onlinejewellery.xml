@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="onlinejewellery.xsl" type="text/xsl" ?>
+<onlinejewellery>
+<product sno="B1">
+  <category>necklace </category>
+  <type>gold </type>
+  <quantity>01 </quantity>
+  <price>50000</price>
+</product>
+<product sno="B2">
+  <category>ring </category>
+  <type>silver </type>
+  <quantity>03 </quantity>
+  <price>12000</price>
+</product>
+<product sno="B3">
+  <category>earrings </category>
+  <type>artificial </type>
+  <quantity>01 </quantity>
+  <price>950</price>
+</product>
+<product sno="B4">
+  <category>bangles </category>
+  <type>artificial </type>
+  <quantity>06 </quantity>
+  <price>5700</price>
+</product>
+</onlinejewellery>

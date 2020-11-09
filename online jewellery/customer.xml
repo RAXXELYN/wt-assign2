@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="customer.xsl" type="text/xsl" ?>
+<onlinejewellery>
+<customer cid="2001">
+  <name>Raxxelyn</name>
+  <age>24</age>
+  <category>gold necklace</category>
+  <phone> 9845612475 </phone>
+  <location> Chennai </location>
+</customer>
+<customer cid="2002">
+  <name>Jenneyl</name>
+   <age>34</age>
+   <category>silver ring</category>
+  <phone> 9456123748 </phone>
+  <location> Madurai </location>
+</customer>
+<customer cid="2003">
+  <name>Berylton</name>
+   <age>56</age>
+   <category>artificial earrings</category>
+  <phone> 9847512364 </phone>
+  <location> Ooty </location>
+</customer>
+<customer cid="2004">
+  <name>Longton</name>
+   <age>27</age>
+   <category>artificial bangles</category>
+  <phone> 98236547156 </phone>
+  <location> Bangalore </location>
+</customer>
+</onlinejewellery>
